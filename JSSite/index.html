@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Welcome to my website</h1>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a class="a" href="index.html">Home</a></li>
+                <li class="li"><a class="a" href="About.html">About</a></li>
+                <li class="li"><a class="a" href="Hobby.html">Hobby</a></li>
+            </ul>
+        </nav>
+        <div class="secondary">
+            <h2 class="h2" style="color: #333; margin-bottom: 10px;">My Favorite Place</h2>
+            <blockquote class="blockquote">"Oklahoma Christian University educates, mentors and inspires learners to fulfill their God-given potential."</blockquote>
+        </div>
+        <section>
+            <img id="home-image" src="https://image.isu.pub/120125200204-3ac682c375a349868743e62e6b4a6e03/jpg/page_1.jpg" alt="My School" style="width: 300px; height: auto;">
+            <br><button id="toggleImageButton">Change Image</button>
+        </section>
+        <section>
+            <p id="content1">I am Graduate Student</p>
+            <br><button id="change1" class="reset-button">Click Here</button>
+        </section>
+        <section>
+            <p id="content2">Do You Like OC?</p>
+            <br><button id="change2" class="reset-button">Reply</button>
+        </section>
+        <section style="margin-bottom:30px;margin-top:30px;">
+            <input type="text" id="required-field" name="required-field" placeholder="Enter '3'">
+            <button type="submit" id="submitButton">Submit</button>
+            <div id="required-field-error" style="display: none;">
+                <p style="color: red;"></p>
+            </div>
+        </section>
+        <h4>OC Courses Offered</h4>
+        <div class="accordion-container">
+            <button class="accButton">OC - Master's in CS</button>
+            <div class="accordDescp">
+                <li>MSCS</li>
+                <li>Computer Science</li>
+                <li>Majors: CS , MSE , Cyber security</li>
+            </div>
+        </div>
+        <div class="accordion-container">
+            <button class="accButton">OC - UnderGraduation</button>
+            <div class="accordDescp">
+                <li>OC - Bachelor's</li>
+                <li>Course : Nursing, Enginerring</li>
+                <li>Education is a journey, and our programs are designed and dedicated to help you along the way. With several flexible, transfer-friendly degrees and supportive mentors to guide you, we provide the resources and support needed to achieve academic and professional goals. Whether you're looking to advance your nursing career or become an educator, we are committed to helping you reach your highest potential.</li>
+            </div>
+        </div>
+        <div class="accordion-container">
+            <button class="accButton">OC - Liberal Arts</button>
+            <div class="accordDescp">
+                <li>OC - Liberal Arts</li>
+                <li>Courses : Bible, Arts , History</li>
+                <li>Our College of Liberal Arts provides an education that never stops being relevant, and teaches you how to be successful with universal skills. At OC we empower you to dream big, challenge yourself and take risks.</li>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

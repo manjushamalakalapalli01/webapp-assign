@@ -1,20 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>About Page</title>
+  <meta charset="UTF-8">
+  <title>My Personal Website - About</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 3px solid rgb(186, 116, 46);
+    }
+
+    th, td {
+      border: 1px solid rgb(42, 130, 74);
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: rgb(109, 96, 167);
+      color: white;
+    }
+  </style>
 </head>
 <body>
-	<div class="transition-image About-transition"></div>
-	<h1>About Me</h1>
-	<p>My Name is <strong>Manjusha Chowdary Malakalapalli</strong></p>
-	<h2>Contact Information</h2>
-	<ul>
-		<li>Address: 1920 East 2nd Street, Apt 2910, Edmond, OK 73034.</li>
-		<li>Email: m.malakalapallil@eagles.oc.edu</li>
-		<li>Cell: +1(740)417-2048</li>
-		<li>Status: Single</li>
-	</ul>
-<p><a href="HomePage.html">Return to Home Page</a></p>
-<link rel="stylesheet" href="styles.css">
+  <div class="container">
+    <h1 class="header">About Me</h1>
+    <nav class="nav">
+      <ul class="ul">
+        <li class="li"><a class="a" href="HomePage.html">Home</a></li>
+        <li class="li"><a class="a" href="About.html">About</a></li>
+        <li class="li"><a class="a" href="Hobby.html">Hobby</a></li>
+        <li class="li" style="display: inline;"><a class="a" href="Hometown.html">Hometown</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="divv">
+    <main class="main">
+      <table>
+        <tr>
+          <th colspan="2" class="sec-h2">About Me</th>
+        </tr>
+        <tr>
+          <td colspan="2" class="ptag">My Name is <strong>Manjusha Chowdary Malakalapalli</strong></td>
+        </tr>
+        <tr>
+          <th colspan="2" class="sec-h2">Contact Information</th>
+        </tr>
+        <tr>
+          <td class="li">Address:</td>
+          <td class="li">1920 East 2nd Street, Apt 2910, Edmond, OK 73034.</td>
+        </tr>
+        <tr>
+          <td class="li">Email:</td>
+          <td class="li">m.malakalapallil@eagles.oc.edu</td>
+        </tr>
+        <tr>
+          <td class="li">Cell:</td>
+          <td class="li">+1 (740) 417-2048</td>
+        </tr>
+        <tr>
+          <td class="li">Status:</td>
+          <td class="li">Single</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="ptag"><a class="a" href="HomePage.html">Return to Home Page</a></td>
+        </tr>
+      </table>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
